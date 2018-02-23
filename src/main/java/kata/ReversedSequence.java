@@ -6,6 +6,14 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * https://www.codewars.com/kata/5a00e05cc374cb34d100000d
+ *
+ * Get the number n (n>0) to return the reversed sequence from n to 1.
+ *
+ * Example : n=5 >> [5,4,3,2,1]
+ *
+ */
 public class ReversedSequence {
 
   public static Collection reverse(int n) {
